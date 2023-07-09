@@ -1,0 +1,326 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+:root {
+    Перший колір для web, другий для studio /
+    --color-weblogo: #2196f3;
+    --color-studiologo: #000000;
+    / щось типу заголовку /
+    --color-likeheader: #212121;
+    / email та tel в header  /
+    --color-telemailHeader: #757575;
+    / білий текст /
+    --color-white: #ffffff;
+    / застосувалось в шрифті кноппки /
+    --color-button: #2f303a;
+    / наче для email та tel footer /
+    --color-telemailFooter: #ffffff99;
+    / наче для background'у midsection /
+    --background-midsection: #ececec;
+    / background portfolio
+    --background-portfolio: #f5f4fa;
+}
+
+.header{
+    display: flex;
+    align-items: center;
+}
+
+.hero
+{
+    background: #2F303A;
+    padding: 200px;
+}
+.button
+{
+    display: block;
+    margin: 0 auto;
+    width: 216px;
+    height: 50px;
+    left: 692px;
+    top: 447px;
+    background-color: aqua;
+    outline: none;
+    border: none;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 10px;
+}
+
+.button_txt
+{
+    color: #000000;
+    margin:0 auto;
+    display: block;
+}
+
+.hero__heading
+{
+    width: 696px;
+    height: 120px;
+    
+    font-family: 'Roboto';
+    font-weight: 900;
+
+    margin:0 auto;
+
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    
+    color: #ffff;
+}
+
+
+.sectionggg{
+list-style: none;
+display:flex;
+margin: 0 auto;
+justify-content:center
+}
+
+
+.section12{
+display: flex;
+justify-content: center;
+}
+.section12-li:not(:last-child)
+{
+margin-right:30px ;
+}
+
+ul{
+    list-style: none;
+}
+
+.section-team-ul{display: flex;}
+.h23{
+text-align: center;
+margin-bottom: 50px;
+}
+.container {
+    max-width: 1200px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+.section-photo{
+    background-color:#F5F4FA;
+    padding-top: 96px;
+    padding-bottom: 94px    ;
+}
+
+.section-team-li:not(:last-child){
+    margin-right: 30px;
+}
+
+a{
+    text-decoration: none;
+}
+
+.logo2footer {
+    width: 145px;
+    height: 31px;
+
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+
+    /* identical to box height */
+
+    letter-spacing: 0.03em;
+    color: var(--color-white);
+    margin-bottom: 20px;
+    display: block;
+}
+.spanlogo {
+    color:#2196F3;
+}
+
+.adress {
+    width: 231px;
+    height: 21px;
+
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    display: block;
+    margin-bottom: 9px;
+    /* or 171% */
+
+    letter-spacing: 0.03em;
+
+    color: var(--color-white);
+}
+
+.liemailfooter {
+    margin-bottom: 9px;
+}
+.emailFooter {
+    width: 136px;
+    height: 21px;
+
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    margin-bottom: 9px;
+
+    /* or 171% */
+
+    letter-spacing: 0.03em;
+
+    color:rgba(255, 255, 255, 0.60);
+}
+
+.telFooter {
+    width: 231px;
+    height: 21px;
+
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+
+    /* or 171% */
+
+    letter-spacing: 0.03em;
+
+    color: var(--color-telemailFooter);
+}
+
+#footer {
+    width: 1600px;
+    height: 252px;
+    background:#2F303A;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+
+.tru-photo{
+    padding-top:118px;
+}
+
+
+
+.tel {
+    width: 122px;
+    height: 16px;
+
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+
+    color: var(--color-telemailHeader);
+}
+.tel:hover {
+    width: 122px;
+    height: 16px;
+
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+
+    color: var(--color-weblogo);
+}
+
+.email:hover {
+    color: var(--color-weblogo);
+}
+
+
+.ulrowdet {
+    display: flex;
+    align-items: center;
+}
+.ulrow-li {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+
+    color: var(--color-likeheader);
+}
+
+
+.nav-contacts:hover {
+    color: var(--color-weblogo);
+}
+
+.nav-portfolio:hover {
+    color: var(--color-weblogo);
+}
+
+.nav-studio:hover {
+    color: var(--color-weblogo);
+}
+
+.sectionheader {
+    padding-top: 24px;
+    padding-bottom: 24px;
+    width: 1600px;
+    height: 80px;
+}
+
+
+.logo1header {
+    width: 145px;
+    height: 31px;
+
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    color: var(--color-studiologo);
+
+    /* identical to box height */
+
+    letter-spacing: 0.03em;
+    margin-right: 93px;
+}
+.spanlogo {
+    color: var(--color-weblogo);
+}
+.ulrow {
+    display: flex;
+    margin-right: 344px;
+    align-items: center;
+}
+
+.ulrow-item:not(:last-child) {
+    margin-right: 30px;
+}
+
+
+
+.ulrow {
+    display: flex;
+    margin-right: 344px;
+    align-items: center;
+}
+.ulrowdet {
+    display: flex;
+    align-items: center;
+}
+.flexdivheader {
+    display: flex;
+    align-items: center;
+}
